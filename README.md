@@ -9,10 +9,16 @@ Visit "Murtaza's Workshop - Robotics and AI"  https://www.youtube.com/watch?v=Zi
 I have implemented the same idea in a different way for my personal purpose.
 
 Third (3):
-Import the libraries>>>>
+Import all the required libraries.
 
-from cv2 import cv2
+from cv2 import cv2  
+
 import mediapipe as mp
+
 import time
+
 import os
+
 import numpy as np
+
+ 
