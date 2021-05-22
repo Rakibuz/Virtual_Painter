@@ -11,14 +11,12 @@ I have implemented the same idea in a different way for my personal purpose.
 Third (3):
 Import all the required libraries.
 
-from cv2 import cv2  
+ Ready To go>>>>>  
+ 
+ Happy Coding :)
+ 
+ Screen Shot of the project:
+ ![Screenshot (214)](https://user-images.githubusercontent.com/28311232/119230366-ad4f8100-bb3d-11eb-93ae-fc68b78eaa36.png)
 
-import mediapipe as mp
-
-import time
-
-import os
-
-import numpy as np
 
  
