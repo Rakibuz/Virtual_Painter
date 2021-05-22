@@ -11,8 +11,8 @@ I have implemented the same idea in a different way for my personal purpose.
 Third (3):
 Import the libraries>>>>
 
-  from cv2 import cv2
-  import mediapipe as mp
-  import time
-  import os
-  import numpy as np
+from cv2 import cv2
+import mediapipe as mp
+import time
+import os
+import numpy as np
