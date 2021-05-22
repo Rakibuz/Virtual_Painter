@@ -1,5 +1,8 @@
 # Virtual_Painter
-This project can be called as write in air or virtual painter. Follow those steps
+This project can be called as write in air or virtual painter.
+
+------------------------Follow those steps-----------------------
+
 First (1):
 First Visit the Mediapipe Libary. https://google.github.io/mediapipe/solutions/hands.html#hand-landmark-model
 This is used for detecting the different position of human hand.
