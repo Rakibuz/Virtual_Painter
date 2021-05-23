@@ -118,7 +118,7 @@ while(cap.isOpened()):
     cv2.rectangle(img, (436,10), (540,80), (0,0,0),cv2.FILLED)
     cv2.rectangle(img, (560,10), (600,80), (255,255,255),cv2.FILLED)
     cv2.putText(img,'Clear',(560,50),cv2.FONT_HERSHEY_PLAIN,1,(0,0,255),2) 
-    cv2.putText(img,'Ereaser',(450,50),cv2.FONT_HERSHEY_PLAIN,1,(255,255,255),2) 
+    cv2.putText(img,'Eraser',(450,50),cv2.FONT_HERSHEY_PLAIN,1,(255,255,255),2) 
     
     if(drawColor==(255, 0, 255)):
         cv2.putText(img,'Selected',(30,50),cv2.FONT_HERSHEY_PLAIN,1,(255,255,255),2)
@@ -126,8 +126,8 @@ while(cap.isOpened()):
         cv2.putText(img,'Selected',(170,50),cv2.FONT_HERSHEY_PLAIN,1,(255,255,255),2)
     elif(drawColor == (0, 255, 0)):
         cv2.putText(img,'Selected',(310,50),cv2.FONT_HERSHEY_PLAIN,1,(255,255,255),2)
-    elif(drawColor == (0, 0, 0)):
-        cv2.putText(img,'Selected',(450,50),cv2.FONT_HERSHEY_PLAIN,1,(255,255,255),2)    
+#     elif(drawColor == (0, 0, 0)):
+#         cv2.putText(img,'Selected',(450,50),cv2.FONT_HERSHEY_PLAIN,1,(255,255,255),2)    
 
 
     imgGray = cv2.cvtColor(imgCanvas, cv2.COLOR_BGR2GRAY)
