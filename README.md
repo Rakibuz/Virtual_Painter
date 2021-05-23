@@ -20,7 +20,7 @@ Import all the required libraries.
  
  Screen Shot of the project:
  
- Up index and middle finger to select color
+ Up index and middle finger to select color,ereaser or clear window option.
  
  ![Selection_Mode](https://user-images.githubusercontent.com/28311232/119270167-2f62a700-bc1d-11eb-841e-d3e12ec535f2.JPG)
 
