@@ -22,6 +22,7 @@ Import all the required libraries.
  
  Up index and middle finger to select color,eraser or clear window option.
   ![Selection_Mode](https://user-images.githubusercontent.com/28311232/119270545-ff1c0800-bc1e-11eb-9696-1f6b44c14b66.JPG)
+  
  Up only index finger to draw
  
   ![Drawing_Mode](https://user-images.githubusercontent.com/28311232/119270550-05aa7f80-bc1f-11eb-9113-f5fd134a0c9a.JPG)
