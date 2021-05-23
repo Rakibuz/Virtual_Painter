@@ -91,6 +91,10 @@ while(cap.isOpened()):
                     drawColor = (0, 255, 0)
                 elif 436 < x1 < 540:
                     drawColor = (0, 0, 0)
+                elif 560 < x1 < 600:
+                     imgCanvas_new=np.zeros((480, 640, 3), np.uint8)
+                     imgCanvas=imgCanvas_new
+                     #to clear the window
 
             cv2.rectangle(img, (x1, y1- 25), (x2, y2 + 25), drawColor, cv2.FILLED)
         
@@ -112,6 +116,9 @@ while(cap.isOpened()):
     cv2.rectangle(img, (150,10), (260,80), (255,0,0),cv2.FILLED)
     cv2.rectangle(img, (296,10), (400,80), (0,255,0),cv2.FILLED)
     cv2.rectangle(img, (436,10), (540,80), (0,0,0),cv2.FILLED)
+    cv2.rectangle(img, (560,10), (600,80), (255,255,255),cv2.FILLED)
+    cv2.putText(img,'Clear',(560,50),cv2.FONT_HERSHEY_PLAIN,1,(0,0,255),2) 
+    cv2.putText(img,'Ereaser',(450,50),cv2.FONT_HERSHEY_PLAIN,1,(255,255,255),2) 
     
     if(drawColor==(255, 0, 255)):
         cv2.putText(img,'Selected',(30,50),cv2.FONT_HERSHEY_PLAIN,1,(255,255,255),2)
