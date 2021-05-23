@@ -20,6 +20,14 @@ Import all the required libraries.
  
  Screen Shot of the project:
  
+ Up index and middle finger to select color
+ 
+ ![Selection_Mode](https://user-images.githubusercontent.com/28311232/119270167-2f62a700-bc1d-11eb-841e-d3e12ec535f2.JPG)
+
+ Up only index finger to draw
+ 
+ ![Drawing_Mode](https://user-images.githubusercontent.com/28311232/119270180-499c8500-bc1d-11eb-8a4e-68596284cf1e.JPG)
+
  ![vapinter](https://user-images.githubusercontent.com/28311232/119269917-e8c07d00-bc1b-11eb-8b44-654372e93065.JPG)
 
 
